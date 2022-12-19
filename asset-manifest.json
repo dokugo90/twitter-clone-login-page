@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/twitter-clone-login-page/static/css/main.a9ffdbd1.css",
+    "main.js": "/twitter-clone-login-page/static/js/main.9f26ab1b.js",
+    "index.html": "/twitter-clone-login-page/index.html",
+    "main.a9ffdbd1.css.map": "/twitter-clone-login-page/static/css/main.a9ffdbd1.css.map",
+    "main.9f26ab1b.js.map": "/twitter-clone-login-page/static/js/main.9f26ab1b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9ffdbd1.css",
+    "static/js/main.9f26ab1b.js"
+  ]
+}
