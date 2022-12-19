@@ -1,0 +1,120 @@
+
+.text {
+  color: blue;
+}
+
+.image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+textarea {
+  resize: horizontal;
+  height: 100px;
+}
+
+#Login-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+.username-textfield {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.twitter-logo {
+  width: 2em;
+  height: 2em;
+}
+
+.create-account {
+  font-weight: 700;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+
+.sign-up {
+  width: 525px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #1da1f2;
+  color: white;
+  font-size: 17px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+a {
+  color: #1da1f2;
+  text-decoration: none;
+}
+
+#outlined-basic {
+  width: 500px;
+}
+
+@media (max-width: 550px) {
+  #outlined-basic {
+    width: 300px;
+  }
+  .sign-up {
+    width: 325px;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 350px) {
+  #outlined-basic {
+    width: 220px;
+  }
+  .sign-up {
+    width: 245px;
+    height: 40px;
+    border-radius: 0px;
+    border: none;
+    background-color: #1da1f2;
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+}
+
+.account-snackbar {
+  position: fixed;
+  bottom: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ width: 275px;
+ height: 50px;
+  background-color: #1da1f2;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  color: white;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.account-snackbar-flex {
+  display: flex;
+  justify-content: center;
+}
