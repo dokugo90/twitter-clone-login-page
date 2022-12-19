@@ -236,7 +236,7 @@ function SignUpPage() {
     timer.current = setTimeout(() => {
       hasSignedIn(false)
       if (navigate) {
-        window.location.href = "/twitter-clone-login-page/login"
+        window.location.href = "/twitter-clone-login-page/#/login"
       }
     }, 5000)
   } else {
